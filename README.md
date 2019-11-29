@@ -36,7 +36,7 @@ Ziffers("e 5 3 q 135 e 6 4 q 357",\foo,inf);
 
 Pbindef(\foo,
 	\instrument, \horror
-)
+).play;
 )
 ```
 
