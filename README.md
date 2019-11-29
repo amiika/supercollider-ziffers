@@ -7,18 +7,27 @@ Numbered Notation for SuperCollider (Prototype)
 Quarks.install("https://github.com/amiika/supercollider-ziffers.git");
 ```
 
-# Play
+# Basic use
+
+Ziffers creates Pbindef with \degree and \dur.
 
 ```
  Ziffers.play("q .0 .0 | q 0 e 1 q. 2 | 2 e 1 q 2 e 3| h. 4| e 7 7 7 4 4 4 2 2 2 0 0 0 | q 4 e 3 q 2 e 1 | h. 0");
- 
+
  Ziffers.loop("q .0 .0 | q 0 e 1 q. 2 | 2 e 1 q 2 e 3| h. 4| e 7 7 7 4 4 4 2 2 2 0 0 0 | q 4 e 3 q 2 e 1 | h. 0");
- 
+
+ // Returns Pbindef
+ Ziffers("q 1 3 2 4 5 4 3 2",\foo,3)
+
+ Ziffers("q 1 3 2 4 5 4 3 2",\foo,3).play;
+
+ Ziffers("q 1 3 2 4 5 4 3 2",\foo,inf).play;
+
  // Create array: [[1,2,[3,1,2,3],[1,0.5,0.125]]
  a = Ziffers.parse("h 1 q 2 e 3123");
 ```
 
-# Modify
+# Combine ziffers with synths etc.
 
 ```
 (
