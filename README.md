@@ -51,5 +51,5 @@ Pbindef(\foo,
 
 # ToDo:
 
-... a lot. Basics work but its just a prototype for now.
+... a lot. Only basic stuff like the degrees, note length characters, ties, rests and chords work.
 
