@@ -1,0 +1,7 @@
+(
+  name: "Ziffers",
+  summary: "Numbered musical notation for SuperCollider",
+  version: 0.0.1",
+  license: "MIT",
+  author: "amiika"
+)
