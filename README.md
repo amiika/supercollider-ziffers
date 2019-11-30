@@ -1,5 +1,5 @@
 # supercollider-ziffers
-Numbered Notation for SuperCollider (Prototype). Original [Ziffers](https://github.com/amiika/supercollider-ziffers) was developed for Sonic Pi.
+Numbered Notation for SuperCollider (Prototype). [Original Ziffers](https://github.com/amiika/ziffers) was developed for Sonic Pi.
 
 # Install
 
